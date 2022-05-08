@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { StyledText, StyledView, StyledStatusBar, StyledButton, PrimaryText } from "components/Basic"
+import { StyledText, StyledView, StyledStatusBar, StyledButton } from "components/Basic"
 import { SafeAreaView } from 'react-native'
 
 const SignUp = ({ navigation }) => {
@@ -7,7 +7,7 @@ const SignUp = ({ navigation }) => {
     return (
         <SafeAreaView>
             <StyledStatusBar barStyle="light-content" />
-            <PrimaryText >Hello World!</PrimaryText>
+            <StyledText color="primary">Hello World!</StyledText>
 
             <StyledText color="primary">Home</StyledText>
             <StyledButton
